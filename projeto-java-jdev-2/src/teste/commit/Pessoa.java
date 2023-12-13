@@ -3,6 +3,7 @@ package teste.commit;
 public class Pessoa {
 
 	private String nome;
+	private String sobrenome;
 	private Long cpf;
 	
 	public String getNome() {
@@ -16,6 +17,12 @@ public class Pessoa {
 	}
 	public void setCpf(Long cpf) {
 		this.cpf = cpf;
+	}
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
 	}	
 	
 }
